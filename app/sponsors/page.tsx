@@ -9,12 +9,16 @@ const sponsors = [
   },
   {
     file: "Sponsor_02.png",
-    name: "湯馬91譜",
+    name: "海馬91譜",
     url: "https://www.91pu.com.tw/m/index.shtml",
   },
-  { file: "Sponsor_03.png", name: "8178", url: "" },
+  {
+    file: "Sponsor_10.png",
+    name: "樂岩音樂",
+    url: "https://shop1688.com.tw/aom20200131141/#about",
+  },
   { file: "Sponsor_04.png", name: "聲潮", url: "https://soundtide.tw/" },
-  { file: "Sponsor_05.png", name: "建豪印刷", url: "https://gainhow.tw/" },
+  { file: "Sponsor_13.png", name: "建豪印刷", url: "https://gainhow.tw/" },
   {
     file: "Sponsor_06.png",
     name: "氧顏森活",
@@ -22,7 +26,7 @@ const sponsors = [
   },
   {
     file: "Sponsor_07.png",
-    name: "曙島咖啡",
+    name: "聲島咖啡",
     url: "https://www.instagram.com/beingcafe_taipei/",
   },
   {
@@ -38,11 +42,7 @@ const sponsors = [
 ];
 
 const coOrganizers = [
-  {
-    file: "Sponsor_10.png",
-    name: "樂岩音樂",
-    url: "https://shop1688.com.tw/aom20200131141/#about",
-  },
+  { file: "Sponsor_03.png", name: "8178", url: "" },
   {
     file: "Sponsor_11.png",
     name: "Ayers",

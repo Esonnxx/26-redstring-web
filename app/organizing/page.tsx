@@ -12,15 +12,15 @@ const memberRows = [
   ],
   [{ file: "member_05.png", role: "活動", name: "顏琬恩" }],
   [
-    { file: "member_06.png", role: "財務", name: "李承恩" },
-    { file: "member_07.png", role: "財務", name: "顏名萱" },
-    { file: "member_08.png", role: "財務", name: "徐俊誠" },
+    { file: "member_06.png", role: "報名", name: "李承恩" },
+    { file: "member_07.png", role: "報名", name: "顏名萱" },
+    { file: "member_08.png", role: "報名", name: "凃俊誠" },
   ],
   [
     { file: "member_09.png", role: "宣傳", name: "陳祐霖" },
     { file: "member_10.png", role: "宣傳", name: "游雅涵" },
   ],
-  [{ file: "member_11.png", role: "美宣", name: "張筠媛" }],
+  [{ file: "member_11.png", role: "美宣", name: "張筑媛" }],
 ];
 
 interface MemberProps {

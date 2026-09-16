@@ -3,7 +3,7 @@ import Waves from "@/components/home/Waves";
 export default function HomeBanner() {
   return (
     <section
-      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-white max-[600px]:min-h-[max(48rem,112svh)] min-[601px]:max-lg:min-h-[clamp(45rem,65vw,60rem)]"
+      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-white max-[500px]:min-h-[max(40rem,96svh)] min-[401px]:max-[600px]:min-h-[max(48rem,112svh)] min-[601px]:max-lg:min-h-[clamp(45rem,65vw,60rem)]"
       style={{ backgroundImage: "url('/assets/home/home_banner.webp')" }}
       data-aos="fade"
     >
@@ -25,7 +25,7 @@ export default function HomeBanner() {
         waveSpeedX={0.015}
       />
 
-      <div className="absolute inset-x-0 top-[clamp(9rem,17vw,10rem)] z-10 flex justify-center">
+      <div className="absolute inset-x-0 top-[clamp(9rem,17vw,10rem)] z-10 flex justify-center ">
         <p className="-mr-5 text-[20px] tracking-[40px]">赤弦獎</p>
       </div>
 
@@ -46,7 +46,9 @@ export default function HomeBanner() {
 
       <div className="-mr-5 absolute tracking-[40px] bottom-[7%] z-10 text-center text-[17px] leading-relaxed">
         <p className="-mr-5">｜跫聲｜</p>
-        <p className="tracking-[1rem] pt-3">26th Red String</p>
+        <p className="pt-3 tracking-[0.6rem] max-[400px]:text-[14px] max-[400px]:tracking-[5px]">
+          26th Red String
+        </p>
       </div>
     </section>
   );
