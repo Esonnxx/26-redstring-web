@@ -9,6 +9,7 @@ const links = [
   { href: "/information", label: "比賽須知" },
   { href: "/sponsors", label: "贊助廠商" },
   { href: "/organizing", label: "籌備團隊" },
+  // { href: "/interview", label: "採訪消息" },
 ];
 
 export default function Header() {

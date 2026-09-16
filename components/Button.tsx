@@ -18,7 +18,7 @@ export default function Button({
   className = "",
   ...props
 }: ButtonProps) {
-  const buttonClassName = `relative isolate inline-flex items-center justify-center rounded-full bg-white px-12 py-5 text-[20px] leading-none text-black before:pointer-events-none before:absolute before:inset-[-2px] before:-z-10 before:rounded-full before:bg-white before:opacity-[0.35] before:blur-[12px] before:content-[''] before:transition-all before:duration-200 hover:before:inset-[-3px] hover:before:opacity-[0.45] hover:before:blur-[16px] ${className}`;
+  const buttonClassName = `inline-flex items-center justify-center rounded-full bg-white px-12 py-5 text-[20px] leading-none text-black shadow-[0_0_12px_rgba(255,255,255,0.35)] transition-shadow duration-200 hover:shadow-[0_0_16px_rgba(255,255,255,0.45)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white ${className}`;
 
   if (href) {
     return (

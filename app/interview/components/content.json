@@ -1,0 +1,26 @@
+{
+  "ARTICLE01": {
+    "articleCover": "/assets/interview/interview%20(1).webp",
+    "articleTop": {
+      "eyebrow": "採訪消息 01",
+      "title": "陳宥豪",
+      "paragraph": ["以琴弦與歌聲，留下屬於自己的跫聲。"]
+    },
+    "section01": {
+      "title": "專訪內容敬請期待",
+      "paragraph": ["完整訪談與演出故事將於後續公開。"]
+    }
+  },
+  "ARTICLE02": {
+    "articleCover": "/assets/interview/interview%20(2).webp",
+    "articleTop": {
+      "eyebrow": "採訪消息 02",
+      "title": "莊耿碩＆林莉樺",
+      "paragraph": ["在舞台上相遇，讓旋律成為彼此最真誠的對話。"]
+    },
+    "section01": {
+      "title": "專訪內容敬請期待",
+      "paragraph": ["完整訪談與演出故事將於後續公開。"]
+    }
+  }
+}
