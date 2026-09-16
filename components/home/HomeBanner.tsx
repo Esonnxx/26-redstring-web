@@ -32,12 +32,12 @@ export default function HomeBanner() {
       <div className="flex translate-y-[clamp(2rem,8vh,5rem)] items-center justify-center">
         <div className="relative flex h-[min(100vw,620px)] w-full items-center justify-center max-[600px]:flex-col md:h-[min(80vw,58vh,620px)] md:w-[min(95vw,78vh,900px)] lg:h-[min(68vw,58vh,620px)] lg:w-[min(78vw,78vh,900px)]">
           <img
-            className="banner-title-float-one relative z-10 w-[45%] max-[600px]:w-[45%] md:w-[70%] lg:w-[67%]"
+            className="banner-title-float-one relative z-10 w-[45%] max-[600px]:w-[50%] md:w-[70%] lg:w-[67%]"
             src="/assets/home/banner_title_01.webp"
             alt="赤"
           />
           <img
-            className="banner-title-float-two relative z-0 -ml-[12%] w-[45%] opacity-90 max-[600px]:ml-0 max-[600px]:w-[45%] md:-ml-[14%] md:w-[70%] lg:-ml-[12%] lg:w-[67%]"
+            className="banner-title-float-two relative z-0 -ml-[12%] w-[45%] opacity-90 max-[600px]:ml-0 max-[600px]:w-[50%] md:-ml-[14%] md:w-[70%] lg:-ml-[12%] lg:w-[67%]"
             src="/assets/home/banner_title_02.webp"
             alt="弦"
           />
