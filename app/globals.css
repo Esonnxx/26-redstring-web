@@ -80,12 +80,12 @@ body {
 }
 
 .banner-title-float-one {
-  animation: banner-title-float-one 18s ease-in-out -4s infinite;
+  animation: banner-title-float-one 18s ease-in-out 800ms infinite both;
   will-change: transform;
 }
 
 .banner-title-float-two {
-  animation: banner-title-float-two 22s ease-in-out -9s infinite;
+  animation: banner-title-float-two 22s ease-in-out 800ms infinite both;
   will-change: transform;
 }
 
