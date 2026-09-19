@@ -129,8 +129,9 @@ export default function Sponsors() {
         />
 
         <section
+          id="co-organizers"
           aria-labelledby="co-organizers-title"
-          className="mt-[clamp(3rem,6vw,5rem)]"
+          className="mt-[clamp(3rem,6vw,5rem)] scroll-mt-8"
         >
           <h2
             id="co-organizers-title"

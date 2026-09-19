@@ -78,9 +78,10 @@ export default function About() {
       </section>
 
       <section
+        id="red-string-purpose"
         aria-labelledby="about-section-02-title"
         data-aos="fade-up"
-        className="relative pb-14 overflow-hidden bg-black/45   text-white md:px-[11.5%] md:py-16"
+        className="relative scroll-mt-8 overflow-hidden bg-black/45 pb-14 text-white md:px-[11.5%] md:py-16"
       >
         <img
           src="/assets/about/about_02_img.webp"
@@ -120,9 +121,10 @@ export default function About() {
       </section>
 
       <section
+        id="about-tsaiyin"
         aria-labelledby="about-section-03-title"
         data-aos="fade-up"
-        className="px-0 py-16 text-white md:px-[11.5%] md:py-14"
+        className="scroll-mt-8 px-0 py-16 text-white md:px-[11.5%] md:py-14"
       >
         <div className="mx-auto flex w-full flex-col items-center">
           <h2

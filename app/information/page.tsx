@@ -34,8 +34,9 @@ export default function Information() {
       />
 
       <section
+        id="competition-guide"
         aria-labelledby="information-section-01-title"
-        className="px-[5%] -mt-20  py-10 text-white md:px-[8%] md:py-1"
+        className="-mt-20 scroll-mt-8 px-[5%] py-10 text-white md:px-[8%] md:py-1"
       >
         <h2 id="information-section-01-title" className="sr-only">
           下載比賽資料
@@ -73,8 +74,9 @@ export default function Information() {
       </section>
 
       <section
+        id="registration-process"
         aria-labelledby="information-section-02-title"
-        className="px-[5%] py-14 text-white md:py-28"
+        className="scroll-mt-8 px-[5%] py-14 text-white md:py-28"
       >
         <h2
           id="information-section-02-title"
@@ -97,8 +99,9 @@ export default function Information() {
       </section>
 
       <section
+        id="transportation"
         aria-labelledby="information-section-03-title"
-        className="px-[5%] py-14 text-white md:py-1 md:pb-20"
+        className="scroll-mt-8 px-[5%] py-14 text-white md:py-1 md:pb-20"
       >
         <h2
           id="information-section-03-title"

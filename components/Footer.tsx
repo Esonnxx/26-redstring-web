@@ -30,9 +30,8 @@ export default function Footer() {
             <p>總召 戴銘皜 0965-565-780</p>
             <p>副召 張慧堉 0981-775-615</p>
 
-            <p className="mt-5">公關</p>
-            <p>廖奕棋 0928-793-681</p>
-            <p>彭揚詠 0981-281-292</p>
+            <p className="mt-5">公關 彭揚詠 0928-793-681</p>
+            <p>公關 廖奕棋 0981-281-292</p>
 
             <p className="mt-5">赤弦獎官方 gmail : ntutredstring@gmail.com</p>
           </address>
