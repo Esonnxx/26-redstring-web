@@ -26,7 +26,7 @@ export default function Header() {
         <img
           className="w-[clamp(4.5rem,8vw,7rem)]"
           src="/assets/header_icon.webp"
-          alt="赤弦獎"
+          alt="第二十六屆赤弦獎「跫聲」首頁"
         />
       </Link>
 

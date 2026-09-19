@@ -18,12 +18,14 @@ export default function PageBanner({
         }}
       >
         {titleImage ? (
-          <img
-            className="w-[clamp(8rem,32vw,12rem)] md:w-[clamp(14rem,20vw,24rem)]"
-            src={titleImage}
-            alt={titleAlt ?? ""}
-            data-aos="fade-in"
-          />
+          <h1 className="contents">
+            <img
+              className="w-[clamp(8rem,32vw,12rem)] md:w-[clamp(14rem,20vw,24rem)]"
+              src={titleImage}
+              alt={titleAlt ?? ""}
+              data-aos="fade-in"
+            />
+          </h1>
         ) : (
           <h1
             className="text-center text-[clamp(1.75rem,5vw,3.5rem)] font-bold tracking-[0.35em] text-white [text-shadow:0_0_6px_rgba(255,255,255,0.65),0_0_20px_rgba(255,255,255,0.35)]"

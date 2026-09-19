@@ -3,10 +3,14 @@ import Waves from "@/components/home/Waves";
 export default function HomeBanner() {
   return (
     <section
+      aria-label="第二十六屆赤弦獎「跫聲」民歌與木吉他比賽主視覺"
       className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-white max-[500px]:min-h-[max(40rem,96svh)] min-[501px]:max-[600px]:min-h-[max(48rem,112svh)] min-[601px]:max-lg:min-h-[clamp(45rem,65vw,60rem)]"
       style={{ backgroundImage: "url('/assets/home/home_banner.webp')" }}
       data-aos="fade"
     >
+      <h1 className="sr-only">
+        第二十六屆赤弦獎「跫聲」民歌與木吉他比賽
+      </h1>
       <div className="pointer-events-none absolute inset-x-0 top-0 z-[2] h-40 bg-gradient-to-b from-[#131224] to-[#131224]/0" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[2] h-48 bg-gradient-to-t from-[#131224] to-[#131224]/0" />
 
@@ -34,12 +38,12 @@ export default function HomeBanner() {
           <img
             className="banner-title-float-one relative z-10 w-[45%] max-[600px]:w-[50%] md:w-[70%] lg:w-[67%]"
             src="/assets/home/banner_title_01.webp"
-            alt="赤"
+            alt="第二十六屆赤弦獎主視覺文字：赤"
           />
           <img
             className="banner-title-float-two relative z-0 -ml-[12%] w-[45%] opacity-90 max-[600px]:ml-0 max-[600px]:w-[50%] md:-ml-[14%] md:w-[70%] lg:-ml-[12%] lg:w-[67%]"
             src="/assets/home/banner_title_02.webp"
-            alt="弦"
+            alt="第二十六屆赤弦獎主視覺文字：弦"
           />
         </div>
       </div>

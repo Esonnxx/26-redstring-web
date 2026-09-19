@@ -1,5 +1,14 @@
 import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata({
+  title: "贊助與協辦單位",
+  description:
+    "感謝支持國立臺北科技大學采音吉他社主辦之第二十六屆赤弦獎「跫聲」民歌與木吉他比賽的贊助及協辦單位。",
+  path: "/sponsors",
+  keywords: ["赤弦獎贊助單位", "赤弦獎協辦單位", "校園音樂贊助"],
+});
 
 const sponsors = [
   {
@@ -70,7 +79,7 @@ function SponsorLogo({ file, name, url }: SponsorLogoProps) {
         >
           <Image
             src={`/assets/sponsors/logos/${file}`}
-            alt={name}
+            alt={`${name}標誌｜第二十六屆赤弦獎合作單位`}
             width={512}
             height={512}
             loading="eager"
@@ -81,7 +90,7 @@ function SponsorLogo({ file, name, url }: SponsorLogoProps) {
       ) : (
         <Image
           src={`/assets/sponsors/logos/${file}`}
-          alt={name}
+          alt={`${name}標誌｜第二十六屆赤弦獎合作單位`}
           width={512}
           height={512}
           loading="eager"
@@ -101,7 +110,7 @@ export default function Sponsors() {
     <main className="min-h-screen ">
       <PageBanner
         titleImage="/assets/sponsors/title_sponsors.webp"
-        titleAlt="贊助廠商"
+        titleAlt="第二十六屆赤弦獎贊助與協辦單位"
       />
 
       <section

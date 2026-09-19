@@ -100,7 +100,7 @@ export default function RegisterSwiper() {
                 <img
                   key={src}
                   src={src}
-                  alt={`報名流程第 ${pageIndex * imagesPerPage + imageIndex + 1} 步驟`}
+                  alt={`第二十六屆赤弦獎報名流程第 ${pageIndex * imagesPerPage + imageIndex + 1} 步驟`}
                   draggable={false}
                   className="w-full rounded-[0.7rem] object-cover"
                 />

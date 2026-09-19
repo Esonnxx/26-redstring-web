@@ -4,6 +4,15 @@ import RegisterSwiper from "@/components/information/RegisterSwiper";
 import Image from "next/image";
 import transportation01 from "@/components/information/transportation_01.webp";
 import transportation02 from "@/components/information/transportation_02.webp";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata({
+  title: "比賽須知與報名資訊",
+  description:
+    "查詢第二十六屆赤弦獎「跫聲」民歌與木吉他比賽的參賽簡章、初賽報名須知、報名流程、比賽地點與交通資訊。",
+  path: "/information",
+  keywords: ["赤弦獎報名", "赤弦獎簡章", "民歌比賽報名", "木吉他比賽報名"],
+});
 
 const downloads = [
   {
@@ -21,7 +30,7 @@ export default function Information() {
     <main className="min-h-screen">
       <PageBanner
         titleImage="/assets/information/title_information.webp"
-        titleAlt="比賽須知"
+        titleAlt="第二十六屆赤弦獎民歌與木吉他比賽須知"
       />
 
       <section
@@ -102,7 +111,7 @@ export default function Information() {
           <div className="overflow-hidden">
             <Image
               src={transportation01}
-              alt="忠孝門路線"
+              alt="前往第二十六屆赤弦獎比賽會場的臺北科技大學忠孝門路線"
               className="h-auto w-full"
               loading="eager"
               sizes="(min-width: 768px) 45vw, 90vw"
@@ -111,7 +120,7 @@ export default function Information() {
           <div className="overflow-hidden">
             <Image
               src={transportation02}
-              alt="新生門路線"
+              alt="前往第二十六屆赤弦獎比賽會場的臺北科技大學新生門路線"
               className="h-auto w-full"
               loading="eager"
               sizes="(min-width: 768px) 45vw, 90vw"

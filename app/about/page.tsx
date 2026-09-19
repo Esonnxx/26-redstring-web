@@ -1,11 +1,20 @@
 import PageBanner from "@/components/PageBanner";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata({
+  title: "關於赤弦獎與采音吉他社",
+  description:
+    "認識第二十六屆赤弦獎「跫聲」的民歌比賽理念與發展歷程，以及主辦單位國立臺北科技大學采音吉他社如何推廣木吉他與校園音樂。",
+  path: "/about",
+  keywords: ["赤弦獎介紹", "采音吉他社介紹", "紅樓琴緣民歌比賽"],
+});
 
 export default function About() {
   return (
     <main className="min-h-screen">
       <PageBanner
         titleImage="/assets/about/title_about.webp"
-        titleAlt="關於赤弦"
+        titleAlt="關於第二十六屆赤弦獎與采音吉他社"
       />
 
       <section
@@ -75,7 +84,7 @@ export default function About() {
       >
         <img
           src="/assets/about/about_02_img.webp"
-          alt="演奏中的吉他手"
+          alt="第二十六屆赤弦獎民歌與木吉他比賽演奏者"
           className="relative z-10 mb-10 block h-[55vw] max-h-[360px] w-full object-cover md:absolute md:inset-y-0 md:right-0 md:mb-0 md:h-full md:max-h-none md:w-[37%]"
           style={{
             maskImage:

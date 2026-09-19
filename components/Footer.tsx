@@ -43,7 +43,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    aria-label={link.label}
+                    aria-label={`第二十六屆赤弦獎官方 ${link.label}`}
                     target="_blank"
                     rel="noreferrer"
                     className="block rounded-full transition-transform duration-300 hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"

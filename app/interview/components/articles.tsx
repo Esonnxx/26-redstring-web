@@ -24,7 +24,7 @@ export default function Articles({ article }: ArticlesProps) {
       <div className="grid items-center gap-8 md:grid-cols-[minmax(0,0.8fr)_minmax(0,1fr)] md:gap-14">
         <img
           src={article.articleCover}
-          alt={article.articleTop.title}
+          alt={`第二十六屆赤弦獎參賽者${article.articleTop.title}專訪照片`}
           className="mx-auto w-full max-w-xl"
         />
 

@@ -30,7 +30,7 @@ export default function InterviewPage() {
     <main className="min-h-screen">
       <PageBanner
         titleImage="/assets/interview/interview_title.webp"
-        titleAlt="採訪消息"
+        titleAlt="第二十六屆赤弦獎採訪消息"
       />
 
       <section
@@ -53,7 +53,7 @@ export default function InterviewPage() {
               >
                 <img
                   src={article.articleCover}
-                  alt={`閱讀${article.articleTop.title}的專訪`}
+                  alt={`第二十六屆赤弦獎參賽者${article.articleTop.title}採訪封面`}
                   className={`w-full transition duration-300 ${
                     isSelected
                       ? "brightness-110"

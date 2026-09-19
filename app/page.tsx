@@ -60,7 +60,7 @@ function Section01() {
           <img
             className="w-full md:w-[50%]"
             src={item.image}
-            alt={`${item.type}演出照片`}
+            alt={`第二十六屆赤弦獎「跫聲」${item.type}民歌與木吉他比賽演出照片`}
           />
           <div className="relative flex w-full items-center justify-center gap-5 px-6 md:w-[36%] md:justify-start md:px-0">
             <img
@@ -98,7 +98,7 @@ function Section02() {
       <iframe
         className="w-full  h-[600px] max-md:h-[400px]"
         src="https://www.youtube.com/embed/CsPBsOyRvgE?si=Il58O1xlV96aedlA"
-        title="YouTube video player"
+        title="第二十六屆赤弦獎「跫聲」民歌與木吉他比賽影片"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
