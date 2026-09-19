@@ -59,13 +59,13 @@ export default function Header() {
       </button>
 
       {isOpen && (
-        <nav className="mx-auto mt-4 flex w-[calc(100%+2rem)] -translate-x-4 flex-col items-center gap-2 bg-[#131224] p-3 md:hidden">
+        <nav className="mx-auto mt-4 flex w-[calc(100%+2rem)] -translate-x-4 flex-col items-center bg-[#131224] p-3 md:hidden">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className={`rounded-full border px-5 py-2 text-center ${
+              className={`flex w-full items-center justify-center rounded-full border px-5 py-3 text-center ${
                 pathname === link.href
                   ? "border-white/80"
                   : "border-transparent"
