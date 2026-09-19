@@ -18,7 +18,7 @@ const memberRows = [
   ],
   [
     { file: "member_09.png", role: "宣傳", name: "陳祐霖" },
-    { file: "member_10.png", role: "宣傳", name: "游雅涵" },
+    { file: "member_10.png", role: "宣傳、美宣", name: "游雅涵" },
   ],
   [{ file: "member_11.png", role: "美宣", name: "張筑媛" }],
 ];

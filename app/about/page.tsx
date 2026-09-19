@@ -154,7 +154,7 @@ export default function About() {
             >
               <figure className="flex flex-col items-center text-center">
                 <img
-                  src="/assets/tsaiyin_logo.webp"
+                  src="/assets/TSAIYIN_LOGO.png"
                   alt="采音吉他社 Instagram"
                   className="w-[clamp(9rem,16vw,12rem)] transition-transform duration-300 hover:scale-105"
                 />

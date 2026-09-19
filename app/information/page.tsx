@@ -8,11 +8,11 @@ import transportation02 from "@/components/information/transportation_02.webp";
 const downloads = [
   {
     title: "第二十六屆赤弦獎參賽簡章",
-    href: "/assets/information/26th-red-string-competition-guide.pdf",
+    href: "/assets/第二十六屆赤弦獎參賽簡章.pdf",
   },
   {
     title: "第二十六屆赤弦獎初賽報名須知",
-    href: "/assets/information/26th-red-string-preliminary-registration.pdf",
+    href: "/assets/第二十六屆赤弦獎初賽報名須知.pdf",
   },
 ];
 

@@ -3,7 +3,7 @@ import Waves from "@/components/home/Waves";
 export default function HomeBanner() {
   return (
     <section
-      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-white max-[500px]:min-h-[max(40rem,96svh)] min-[401px]:max-[600px]:min-h-[max(48rem,112svh)] min-[601px]:max-lg:min-h-[clamp(45rem,65vw,60rem)]"
+      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-white max-[500px]:min-h-[max(40rem,96svh)] min-[501px]:max-[600px]:min-h-[max(48rem,112svh)] min-[601px]:max-lg:min-h-[clamp(45rem,65vw,60rem)]"
       style={{ backgroundImage: "url('/assets/home/home_banner.webp')" }}
       data-aos="fade"
     >
@@ -25,11 +25,11 @@ export default function HomeBanner() {
         waveSpeedX={0.015}
       />
 
-      <div className="absolute inset-x-0 top-[clamp(9rem,17vw,10rem)] z-10 flex justify-center ">
-        <p className="-mr-5 text-[20px] tracking-[40px]">赤弦獎</p>
+      <div className="absolute inset-x-0 top-[clamp(9rem,17vw,10rem)] z-10 flex justify-center max-[600px]:top-22">
+        <p className="-mr-10 text-[20px] tracking-[40px]">赤弦獎</p>
       </div>
 
-      <div className="flex translate-y-[clamp(2rem,8vh,5rem)] items-center justify-center">
+      <div className="flex translate-y-[clamp(2rem,8vh,5rem)] items-center justify-center max-[600px]:translate-y-4">
         <div className="relative flex h-[min(100vw,620px)] w-full items-center justify-center max-[600px]:flex-col md:h-[min(80vw,58vh,620px)] md:w-[min(95vw,78vh,900px)] lg:h-[min(68vw,58vh,620px)] lg:w-[min(78vw,78vh,900px)]">
           <img
             className="banner-title-float-one relative z-10 w-[45%] max-[600px]:w-[50%] md:w-[70%] lg:w-[67%]"
@@ -45,8 +45,8 @@ export default function HomeBanner() {
       </div>
 
       <div className="-mr-5 absolute tracking-[40px] bottom-[7%] z-10 text-center text-[17px] leading-relaxed">
-        <p className="-mr-5">｜跫聲｜</p>
-        <p className="pt-3 tracking-[0.6rem] max-[400px]:text-[14px] max-[400px]:tracking-[5px]">
+        <p className="-mr-10">｜跫聲｜</p>
+        <p className="pt-3 -mr-5 tracking-[0.6rem] max-[400px]:text-[14px] max-[400px]:tracking-[5px]">
           26th Red String
         </p>
       </div>
