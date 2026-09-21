@@ -14,7 +14,7 @@ const sponsors = [
   {
     file: "Sponsor_01.png",
     name: "存在音樂",
-    url: "https://www.instagram.com/beingmusic2017?igsh=MWQzMmR4bTZ5Y3Nscw==",
+    url: "https://www.instagram.com/beingmusic2017",
   },
   {
     file: "Sponsor_02.png",
@@ -47,6 +47,11 @@ const sponsors = [
     file: "Sponsor_09.png",
     name: "MUST社團法人中華音樂著作權協會",
     url: "https://www.must.org.tw/index.aspx",
+  },
+  {
+    file: "Sponsor_14.png",
+    name: "攝影功人",
+    url: "https://www.instagram.com/phomaster_2025",
   },
 ];
 
