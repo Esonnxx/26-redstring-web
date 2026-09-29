@@ -62,7 +62,7 @@ const coOrganizers = [
     name: "Ayers",
     url: "https://www.instagram.com/ayersguitar/",
   },
-  { file: "Sponsor_12.png", name: "樂台計劃", url: "https://mcip.app/" },
+  // { file: "Sponsor_12.png", name: "樂台計劃", url: "https://mcip.app/" },
 ];
 
 interface SponsorLogoProps {
