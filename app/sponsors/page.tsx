@@ -53,6 +53,11 @@ const sponsors = [
     name: "攝影功人",
     url: "https://www.instagram.com/phomaster_2025",
   },
+  {
+    file: "Sponsor_15.png",
+    name: "中華文化總會",
+    url: "https://www.ncat.org.tw/TW",
+  },
 ];
 
 const coOrganizers = [
