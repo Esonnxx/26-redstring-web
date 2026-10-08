@@ -89,7 +89,7 @@ export default function Information() {
 
         <div className="mt-10 flex justify-center md:mt-14">
           <Button
-            href="https://line.me/R/ti/p/11FZvoRuwx"
+            href="https://lin.ee/RSLIHSy"
             target="_blank"
             rel="noreferrer"
           >
