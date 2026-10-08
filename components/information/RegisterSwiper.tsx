@@ -9,7 +9,7 @@ import {
 } from "react";
 
 const registerImages = Array.from(
-  { length: 12 },
+  { length: 11 },
   (_, index) =>
     `/assets/information/register/register-${String(index + 1).padStart(2, "0")}.webp`,
 );
@@ -45,7 +45,10 @@ export default function RegisterSwiper() {
 
   const goToPage = (offset: number) => {
     setCurrentPage((page) =>
-      Math.max(0, Math.min(Math.min(page, pages.length - 1) + offset, pages.length - 1)),
+      Math.max(
+        0,
+        Math.min(Math.min(page, pages.length - 1) + offset, pages.length - 1),
+      ),
     );
   };
 
@@ -74,7 +77,12 @@ export default function RegisterSwiper() {
         disabled={activePage === 0}
         className="absolute left-0 top-1/2 z-10 flex h-12 w-8 -translate-y-1/2 items-center justify-center text-white transition-opacity hover:opacity-70 disabled:opacity-30 md:left-0 md:h-16 md:w-10"
       >
-        <svg viewBox="0 0 24 40" fill="none" aria-hidden="true" className="h-9 w-5 md:h-12 md:w-6">
+        <svg
+          viewBox="0 0 24 40"
+          fill="none"
+          aria-hidden="true"
+          className="h-9 w-5 md:h-12 md:w-6"
+        >
           <path d="M20 2 4 20l16 18" stroke="currentColor" strokeWidth="2" />
         </svg>
       </button>
@@ -117,7 +125,12 @@ export default function RegisterSwiper() {
         disabled={activePage === pages.length - 1}
         className="absolute right-0 top-1/2 z-10 flex h-12 w-8 -translate-y-1/2 items-center justify-center text-white transition-opacity hover:opacity-70 disabled:opacity-30 md:right-0 md:h-16 md:w-10"
       >
-        <svg viewBox="0 0 24 40" fill="none" aria-hidden="true" className="h-9 w-5 md:h-12 md:w-6">
+        <svg
+          viewBox="0 0 24 40"
+          fill="none"
+          aria-hidden="true"
+          className="h-9 w-5 md:h-12 md:w-6"
+        >
           <path d="m4 2 16 18L4 38" stroke="currentColor" strokeWidth="2" />
         </svg>
       </button>
